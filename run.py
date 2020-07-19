@@ -15,7 +15,7 @@ def run():
         'postprocessor': [{
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
-            'pregerredquality': '256'
+            'preferredquality': '256'
         }]
     }
     with youtube_dl.YoutubeDL(options) as ydl:
